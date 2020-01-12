@@ -20,7 +20,7 @@
     <license>MIT</license>
         <platform name="android">
             <!-- Add (rather than overwrite) a custom-config-file block -->
-            <custom-config-file target="AndroidManifest.xml" parent="/manifest/application" mode="add">
+            <custom-config-file target="AndroidManifest.xml" parent="/manifest/application">
                 <!-- for Android 9 or above -->
               <uses-library android:name="org.apache.http.legacy" android:required="false"/>
             </custom-config-file>
