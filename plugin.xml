@@ -18,9 +18,9 @@
     <keywords>ecosystem:cordova,cordova,phonegap,ios,android,config,configuration,plist,manifest</keywords>
 
     <license>MIT</license>
-        <platform name="android">
-           <custom-config-file parent="./application" target="AndroidManifest.xml">
-	            <uses-library android:name="org.apache.http.legacy"  android:required="false"/>
-            </custom-config-file>
-        </platform>
+       <platform name="android">
+		<config-file parent="/manifest/application" target="AndroidManifest.xml">
+			<uses-library android:name="org.apache.http.legacy" android:required="false" />
+		</config-file>
+	</platform>
 </plugin>
